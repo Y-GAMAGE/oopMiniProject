@@ -1,59 +1,62 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+🌍 TravelEase – Travel Information Web Application
+📌 Project Overview
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+TravelEase is a web-based travel information system designed to help users explore tourist destinations easily. The system allows users to select a country, view districts, browse tourist attraction categories, and access detailed information about attractions along with nearby accommodations and cafés.
 
-## About Laravel
+This project is developed as part of the CMIS 2113 – Object-Oriented Programming mini project to demonstrate practical usage of OOP concepts using Laravel and web technologies.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+🎯 Objectives
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Provide a centralized platform for travel-related information
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Help users explore destinations by country, district, and category
 
-## Learning Laravel
+Display detailed information about tourist attractions and nearby facilities
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Demonstrate object-oriented programming principles in a real-world application
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+👥 Team Members
+Name	               Index Number	
+W.P.I.V.WARNASOORIYA   232159           Team Leader / Backend Developer
+Y.R.GAMAGE	222273	Frontend Developer
+Member 3	XXXXX	Database & Logic
+Member 4	XXXXX	Testing & Documentation
+🛠️ Technologies Used
 
-## Laravel Sponsors
+Frontend: HTML, CSS, JavaScript, Bootstrap
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Backend: Laravel (PHP)
 
-### Premium Partners
+Database: MySQL
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Version Control: Git & GitHub
 
-## Contributing
+Tools: VS Code, XAMPP/Laragon, Composer
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+🧩 OOP Concepts Applied
 
-## Code of Conduct
+Encapsulation: Private class attributes with getters and setters
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Inheritance: Base classes extended by specialized classes
 
-## Security Vulnerabilities
+Polymorphism: Overridden methods for different attraction types
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Abstraction: Interfaces and abstract classes
 
-## License
+Collections: Arrays and lists for managing data
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Exception Handling: Handling invalid inputs and system errors
+
+File I/O: Storing and retrieving data
+
+⚙️ System Features
+
+Country → District → Category → Attraction navigation
+
+Detailed attraction information pages
+
+Nearby accommodation and café listings
+
+Admin panel to manage system data
+
+Responsive and user-friendly interface
